@@ -1,0 +1,36 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Development Guidelines
+
+## Project Documentation
+
+- **Product Requirements**: Before implementing any feature, consult [IPLFantasyPRD.md](mdc:docs/IPLFantasyPRD.md) to ensure alignment with the original product vision.
+- **Technical Architecture**: Reference [IPLFantasyTechSpec.md](mdc:docs/IPLFantasyTechSpec.md).md for the architectural blueprint. Any deviations must be discussed and documented.
+- **Code Organization**: Follow @StoryApp_repostructure.md for file/folder conventions and component placement.
+
+## Development Principles
+
+1. **Simplicity First**: Prioritize readable, maintainable solutions over complex optimizations.
+2. **Mobile-First**: All UI components must work flawlessly on mobile devices.
+3. **Accessibility**: Maintain WCAG 2.1 AA compliance throughout development.
+
+## Code Contribution Workflow
+
+1. Reference the appropriate documentation before starting work
+2. Create feature branches following the pattern: `feature/[feature-name]`
+3. Implement changes adhering to the project's coding standards
+4. Document any technical decisions that deviate from the spec with clear rationale
+5. Submit PRs with comprehensive descriptions referencing relevant project documentation
+
+## Tech Stack Consistency
+
+- Next.js 14 (App Router)
+- Tailwind CSS with ShadCN UI components
+- Clerk for authentication
+- Supabase for database
+- Gemini API for AI generation
+
+Maintain consistency with these choices unless there's a compelling reason to change. Document any alternative approaches.
