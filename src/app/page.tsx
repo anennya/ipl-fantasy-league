@@ -29,7 +29,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-3">How to Play:</h2>
           <ol className="list-decimal list-inside space-y-2">
             <li>
-              **Save the Number:** Add our bot's number to your WhatsApp contacts:
+              **Save the Number:** Add our bot&apos;s number to your WhatsApp contacts:
               <a
                 href={whatsappLink}
                 target="_blank"
@@ -41,7 +41,7 @@ export default function Home() {
               </a>
             </li>
             <li>
-              **Start Chatting:** Send a message (like "JOIN" or "HELLO") to the number above via WhatsApp.
+              **Start Chatting:** Send a message (like &quot;JOIN&quot; or &quot;HELLO&quot;) to the number above via WhatsApp.
             </li>
             <li>
               **Follow Instructions:** Our bot will guide you through selecting your 5 players for the upcoming matches.
